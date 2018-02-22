@@ -5,16 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Playball" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Cormorant|Playball" rel="stylesheet">
+    <title>World Trivia</title>
 </head>
 
 <body>
+    <div class="game">
+        <h1 id="">World Trivia</h1>
+        <button id="start-button">START</button>
+        <form id="trivia-form" class="form hide" >
+            <!-- for adding the get vs post method...what is the difference between get and post -->
+            <!--https://www.w3schools.com/tags/ref_httpmethods.asp-->
+            <h2 id="counter"></h2>
 
+            <div class="question">
+                <label for="q1">What is the capital of The Philippines? </label>
+                <br>
+                <input type="radio" name="q1" value="1">Tokyo
+                <input type="radio" name="q1" value="2">Manila
+                <input type="radio" name="q1" value="3">Beijing
+            </div>
+            <div class="question">
+                <label for="q2">How many main islands make up the state of Hawaii?</label>
+                <br>
+                <input type="radio" name="q2" value="1">10
+                <input type="radio" name="q2" value="2">4
+                <input type="radio" name="q2" value="3">8
+            </div>
+            <div class="question">
+                <label for="q3">Which of the following landmarks is not located in London, England?</label>
+                <br>
+                <input type="radio" name="q3" value="1">Big Ben
+                <input type="radio" name="q3" value="2">Parliament of Great Britain
+                <input type="radio" name="q3" value="3">Stonehenge
+            </div>
+            <div class="question">
+                <label for="q4">What year did the Berlin Wall begin to be torn down?</label>
+                <br>
+                <input type="radio" name="q4" value="1">1977
+                <input type="radio" name="q4" value="2">1989
+                <input type="radio" name="q4" value="3">1984
+            </div>
+            <div class="question">
+                <label for="q5">Aborigines are the native inhabitants of what Country?</label>
+                <br>
+                <input type="radio" name="q5" value="1">Australia
+                <input type="radio" name="q5" value="2">Antarctica
+                <input type="radio" name="q5" value="3">Brazil
+                <br>
+                <input id="submit" type="submit">
+                </div>
+        </form>
+        <div id="game-over" class="hide">
+                <p id="correct-answers">Correct Answers =
+                    <span></span>
+                </p>
+                <p id="incorrect-answers">Incorrect Answers =
+                    <span></span>
+                </p>
+            </div>
+       
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
 </body>
-<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 <script>
-
-
-    
 </script>
+
 </html>

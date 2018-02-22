@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/map.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#start-button {
+    background-color: rgb(241, 149, 95);
+    padding: 20px 30px 20px 20px;
+    border: 2px solid black;
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    /* font-family: 'Alegreya Sans SC', sans-serif; */
+}
+
+.game {
+    background-color: white;
+    text-align: center;
+    padding: 20px 20px;
+    border: 13px solid black;
+    max-width: 600px;
+    border-radius: 8%;
+    margin: 0 auto;
+    transform: translateY(100px);
+}
+
+h1 {
+    font-family: 'Playball', cursive;
+    font-size: 80px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+ 
+label {
+        /* font-family: 'Playball', cursive; */
+    /* font-family: 'Alegreya Sans SC', sans-serif; */
+    font-family: 'Cormorant', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hide {
+    display: none;
+}
