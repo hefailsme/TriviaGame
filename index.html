@@ -9,16 +9,19 @@
     <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Playball" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Cormorant|Playball" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Cormorant|Judson|Playball" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Cormorant|Judson|Oxygen+Mono|Playball" rel="stylesheet">
     <title>World Trivia</title>
 </head>
 
 <body>
     <div class="game">
-        <h1 id="">World Trivia</h1>
+        <h1 id="intro">World Trivia</h1>
         <button id="start-button">START</button>
-        <form id="trivia-form" class="form hide" >
+        <form id="trivia-form" class="form hide">
             <!-- for adding the get vs post method...what is the difference between get and post -->
             <!--https://www.w3schools.com/tags/ref_httpmethods.asp-->
+            <h3>Test your World knowledge by completing this multiple choice trivia!</h3>
             <h2 id="counter"></h2>
 
             <div class="question">
@@ -56,19 +59,22 @@
                 <input type="radio" name="q5" value="2">Antarctica
                 <input type="radio" name="q5" value="3">Brazil
                 <br>
+                <br>
                 <input id="submit" type="submit">
-                </div>
+            </div>
         </form>
         <div id="game-over" class="hide">
-                <p id="correct-answers">Correct Answers =
-                    <span></span>
-                </p>
-                <p id="incorrect-answers">Incorrect Answers =
-                    <span></span>
-                </p>
-            </div>
-       
+            <h2>Thank you for playing.</h2>
+
+            <p id="correct-answers">Correct Answers =
+                <span></span>
+            </p>
+            <p id="incorrect-answers">Incorrect Answers =
+                <span></span>
+            </p>
         </div>
+
+    </div>
     </div>
 
 

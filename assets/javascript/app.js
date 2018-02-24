@@ -3,9 +3,12 @@ $(document).ready(function () {
     // getting start button
     var startBtn = $('#start-button')
     startBtn.on("click", function () {
+        
+      
 
         function stopGame(btn) {
             $('#counter').addClass('hide')
+            $('#intro').addClass('hide')
             btn.addClass('hide')
             // Number = constructor 
             // https://www.w3schools.com/jsref/jsref_constructor_number.asp
@@ -63,6 +66,9 @@ $(document).ready(function () {
         //getting form
         var form = $('#trivia-form')
         form.removeClass('hide')
+
+        var intro = $('intro')
+        $('#intro').addClass('hide')
 
         //getting submit button
         var submit = $('#submit')

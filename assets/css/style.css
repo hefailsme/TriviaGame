@@ -29,21 +29,38 @@ body {
     transform: translateY(100px);
 }
 
+#counter {
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 35px;
+}
+
 h1 {
     font-family: 'Playball', cursive;
     font-size: 80px;
 }
 
+h3 {
+    /* font-family: 'Playball', cursive; */
+    /* font-family: 'Alegreya Sans SC', sans-serif; */
+    /* font-family: 'Cormorant', serif; */
+    font-family: 'Judson', serif;
+    font-size: 28px;
+}
+
 .question {
     margin-bottom: 20px;
 }
- 
+
 label {
-        /* font-family: 'Playball', cursive; */
+    /* font-family: 'Playball', cursive; */
     /* font-family: 'Alegreya Sans SC', sans-serif; */
     font-family: 'Cormorant', serif;
     font-weight: bold;
     font-size: 20px;
+}
+
+#submit {
+    background-color: goldenrod;
 }
 
 .hide {
